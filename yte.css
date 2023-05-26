@@ -1,0 +1,81 @@
+.menu_lon{
+    padding: 0px;
+    margin: 0px;
+    width: 1000px;
+    height: 50px;
+    background-color: red;
+    list-style: none;
+    padding-left: 250px;
+    line-height: 50px;
+}
+.menu_lon>li{
+    float: left;
+    position: relative;
+}
+.menu_lon>li>a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+    padding-left: 30px;
+}
+.menu_lon>li>a:hover{
+    color:yellow;
+}
+.menu_lon>li:hover>.menu_con{
+    display: block;
+}
+
+
+.menu_con{
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+    list-style: none;
+    position: absolute;
+    display: none;
+ }
+    
+.menu_con>li>a{
+        
+     display: block;
+    text-decoration: none;
+    color: red;
+    font-variant: small-caps;
+    border-bottom: 1px dotted red;
+    padding-left: 30px;
+    
+}
+  
+.menu_con>li>a:hover{
+     color:white;
+    background: red;
+    
+}
+/*
+aside
+*/
+.menu{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid wheat;
+    list-style: none;
+    position: absolute;
+    }
+.menu>li>a{
+    
+    display: block;/* chỉnh đường viền 1 khối*/
+     text-decoration: none;/*bỏ dấu gạch chân*/
+    color: white;
+    font-variant: small-caps;/*in hoa*/
+     border-bottom: 1px dotted wheat;/*viền dưới*/
+    padding-left: 30px;
+    line-height: 60px;/*khoảng cách giưã các dòng*/
+}
+.menu>li>a:hover{/*rê chụp*/
+    color:blue;
+    background: yellow;
+}

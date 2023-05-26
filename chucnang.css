@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+.lon{
+  width: 250px;
+   height:250px;
+   float: left;
+   padding: 10px;
+   margin: 5px;
+    border-radius: 10px;
+   background-color:white;
+   box-shadow: 5px turquoise;
+    border: 2px solid #E1E9FF;
+   
+     text-align:center;
+}
+.gia{
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+  
+}
+.ten{
+    font-variant: small-caps;
+    font-size: 15px;
+    color:#04208D;
+    font-weight:bold;
+}
+img{
+    width: 150px;
+    height: 75%;
+}

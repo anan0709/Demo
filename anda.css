@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 950px;
+
+}
+.lon{
+    width: 950px;;
+    height: 600px;
+    
+    position: relative;
+    border-radius: 20px;
+    
+    
+    float: left;
+    margin: 10px;
+    
+}
+.hinh>img {
+    width: 330px;
+    position: absolute;
+    padding-left: 0px;
+    padding-top: 20px; 
+     
+}
+.thongtin{
+    width: 600px;
+    height:700px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+ 
+
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.gia{
+    color: red;
+    font-size: 40px;
+}
+p{
+    font-size:25px;
+  
+}
